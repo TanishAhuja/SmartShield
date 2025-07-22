@@ -24,19 +24,45 @@
 | SVM             | 93.7         | 0.91      |
 | Decision Tree   | 90.1         | 0.88      |
 
-### 📊 Confusion Matrix
-![Confusion Matrix](images/confusion_matrix_rf.png)
+### 🔍 K-Nearest Neighbors (KNN)
+- **Confusion Matrix**  
+  ![Confusion Matrix – KNN](images/conf_matrix_knn.png)
+- **ROC Curve**  
+  ![ROC – KNN](images/roc_knn.png)
+- **PR Curve**  
+  ![PR – KNN](images/pr_knn.png)
 
-### 📈 ROC Curve
-![ROC Curve](images/roc_curve_all_models.png)
+---
 
-### 📉 Precision-Recall Curve
-![PR Curve](images/pr_curve_all_models.png)
+### 🌲 Random Forest
+- **Confusion Matrix**  
+  ![Confusion Matrix – RF](images/conf_matrix_random_forest.png)
+- **ROC Curve**  
+  ![ROC – RF](images/roc_random_forest.png)
+- **PR Curve**  
+  ![PR – RF](images/pr_random_forest.png)
+- **Learning Curve**  
+  ![Learning – RF](images/learning_curve_rf.png)
 
-### 📚 Learning Curve
-![Learning Curve](images/learning_curve_rf.png)
+---
 
-> Make sure to place all plots inside the `images/` directory in your repository.
+### 📈 Support Vector Machine (SVM)
+- **Confusion Matrix**  
+  ![Confusion Matrix – SVM](images/conf_matrix_svm.png)
+- **ROC Curve**  
+  ![ROC – SVM](images/roc_svm.png)
+- **PR Curve**  
+  ![PR – SVM](images/pr_svm.png)
+
+---
+
+### 🌳 Decision Tree
+- **Confusion Matrix**  
+  ![Confusion Matrix – DT](images/conf_matrix_decision_tree.png)
+- **ROC Curve**  
+  ![ROC – DT](images/roc_decision_tree.png)
+- **PR Curve**  
+  ![PR – DT](images/pr_decision_tree.png)
 
 ---
 
