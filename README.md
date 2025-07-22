@@ -68,7 +68,7 @@
 
 ## 🖥 GUI Preview
 
-![SmartShield GUI](images/gui_demo.png)
+![SmartShield GUI](images/SmartShield_Gui.jpeg)
 
 - Live packet monitoring
 - Realtime classification with alert banners
