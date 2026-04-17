@@ -1,0 +1,47 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+
+# --- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Project-specific -----------------------------------------------------
+
+# Raw dataset — too large to redistribute; users must download
+# UNSW-NB15 from https://research.unsw.edu.au/projects/unsw-nb15-dataset
+dataset/*.csv
+
+# Runtime detection logs (regenerated each run)
+logs/
+!logs/.gitkeep
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / secrets (none currently, but defensive)
+.env
+.env.local
+*.key
+*.pem

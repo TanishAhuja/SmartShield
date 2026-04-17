@@ -1,0 +1,50 @@
+{
+  "best_model": "Random Forest",
+  "results": {
+    "Random Forest": {
+      "accuracy": 0.9404870346754114,
+      "precision": 0.9712154760517422,
+      "recall": 0.9191573839197088,
+      "f1": 0.9444696282864914,
+      "roc_auc": 0.9874779568914895
+    },
+    "Decision Tree": {
+      "accuracy": 0.9297382644076031,
+      "precision": 0.9673835972583313,
+      "recall": 0.9028344546156392,
+      "f1": 0.9339950938444863,
+      "roc_auc": 0.9730981298382313
+    },
+    "KNN": {
+      "accuracy": 0.928098621485395,
+      "precision": 0.9583672520060472,
+      "recall": 0.9089004080732326,
+      "f1": 0.9329786029661497,
+      "roc_auc": 0.9779466225903858
+    },
+    "SVM": {
+      "accuracy": 0.8278982206837918,
+      "precision": 0.9223472015178208,
+      "recall": 0.7506341678614756,
+      "f1": 0.827678462848109,
+      "roc_auc": 0.924105406001568
+    }
+  },
+  "features": [
+    "dur",
+    "proto",
+    "service",
+    "state",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sload",
+    "dload",
+    "smean",
+    "dmean",
+    "sinpkt",
+    "dinpkt"
+  ]
+}
